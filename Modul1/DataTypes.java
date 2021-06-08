@@ -15,6 +15,5 @@ public class DataTypes{
     System.out.println("IPK : " + ipk);
     System.out.println("Nilai PBO : " + nilaiAbjad);
     System.err.println("Tampan : " + tampan);
-
    }
 }
