@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 public class DataTypes{
    public static void main(String args[]) {
 	String namaDepan = "Syahri";
@@ -15,5 +17,8 @@ public class DataTypes{
     System.out.println("IPK : " + ipk);
     System.out.println("Nilai PBO : " + nilaiAbjad);
     System.err.println("Tampan : " + tampan);
+
+    JOptionPane.showMessageDialog(null, "Hai, " + namaDepan + namaBelakang);
+    
    }
 }
